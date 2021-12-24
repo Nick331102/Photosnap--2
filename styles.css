@@ -784,6 +784,7 @@ input:checked[type='checkbox'] {
     background: linear-gradient(185deg, rgb(5, 27, 27) 0%, rgba(163, 179, 191, 1) 100%);
     border-radius: 20px;
     position: relative;
+    cursor:pointer;
 }
 
 input[type='checkbox']:after {
@@ -1147,7 +1148,11 @@ input:checked[type='checkbox']:after {
         transition: 0.3s ease-in-out;
 
     }
-}
+
+    
+    
+    }
+
 
 /* Responsive Create and Share, hero, and designed sections */
 
